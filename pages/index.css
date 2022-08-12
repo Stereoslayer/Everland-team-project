@@ -10,6 +10,13 @@
 @import url(../blocks/for-whom/for-whom.css);
 @import url(../blocks/directions/directions.css);
 @import url(../blocks/benefits/benefits.css);
+@import url(../blocks/benefits/__heading/benefits__heading.css);
+@import url(../blocks/accordion/accordion.css);
+@import url(../blocks/accordion/__element/accordion__element.css);
+@import url(../blocks/accordion/__title/accordion__title.css);
+@import url(../blocks/accordion/__heading/accordion__heading.css);
+@import url(../blocks/accordion/__button/accordion__button.css);
+@import url(../blocks/accordion/__subtitle/accordion__subtitle.css);
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/special-projects/special-projects.css);
 @import url(../blocks/stories/stories.css);
