@@ -1,0 +1,23 @@
+/*Bold font*/
+@font-face {
+    font-weight: 700;
+    src: url(../vendor/fonts/Raleway/Raleway-Bold.ttf) format('ttf');
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+/*Regular font*/
+@font-face {
+    font-weight: 400;
+    src: url(../vendor/fonts/Raleway/Raleway-Regular.ttf) format('ttf');
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+/*Medium font*/
+@font-face {
+    font-weight: 500;
+    src: url(../vendor/fonts/Raleway/Raleway-Medium.ttf) format('ttf');
+    font-family: 'Raleway';
+    font-style: normal;
+}
