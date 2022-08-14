@@ -4,8 +4,15 @@
   padding: 0 40px;
 }
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 1279px ) {
   .digits {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .digits {
+    margin-top: 64px;
     padding: 0 10px;
   }
 }

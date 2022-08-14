@@ -1,6 +1,22 @@
 .digits__board {
   max-width: 670px;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 30px 20px;
+}
+
+@media screen and (max-width: 1279px) {
+  .digits__board {
+    max-width: 688px;
+    row-gap: 33px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .digits__board {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
 }
