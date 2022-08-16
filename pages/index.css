@@ -42,3 +42,6 @@
 @import url(../blocks/card/_blue/card_blue.css);
 @import url(../blocks/card/_green/card_green.css);
 @import url(../blocks/card/_white/card_white.css);
+
+@import url(../blocks/stories/stories.css);
+@import url(../blocks/stories/__title/stories__title.css);
