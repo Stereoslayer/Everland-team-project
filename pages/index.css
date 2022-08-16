@@ -26,6 +26,14 @@
 @import url(../blocks/accordion/__button/accordion__button.css);
 @import url(../blocks/accordion/__subtitle/accordion__subtitle.css);
 @import url(../blocks/digits/digits.css);
+@import url(../blocks/digits/__heading/digits__heading.css);
+@import url(../blocks/digits/__card/digits__card.css);
+@import url(../blocks/digits/__image/didits__image.css);
+@import url(../blocks/digits/__board/digits__board.css);
+@import url(../blocks/digits/__element/digits__element.css);
+@import url(../blocks/digits/__title/digits__title.css);
+@import url(../blocks/digits/__numeric/digits__numeric.css);
+@import url(../blocks/digits/__subtitle/digits__subtitle.css);
 @import url(../blocks/special-projects/special-projects.css);
 @import url(../blocks/stories/stories.css);
 @import url(../blocks/agency/agency.css);

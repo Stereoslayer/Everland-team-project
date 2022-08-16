@@ -1,11 +1,1 @@
-
-vendor/.DS_Store
-vendor/fonts/.DS_Store
-images/.DS_Store
-images/.DS_Store
-images/.DS_Store
-blocks/.DS_Store
-blocks/accordion/.DS_Store
-blocks/button-link/.DS_Store
-blocks/button-link/__arrow/.DS_Store
-blocks/directions/.DS_Store
+.DS_Store

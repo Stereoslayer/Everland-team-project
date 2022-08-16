@@ -11,7 +11,7 @@
   }
 }
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 767px) {
   .accordion {
     gap: 16px;
   }
