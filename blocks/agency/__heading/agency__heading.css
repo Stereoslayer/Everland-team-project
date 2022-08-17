@@ -1,0 +1,11 @@
+.agency__heading {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #333333;
+  margin: 0 0 20px 0;
+  padding-top: 100px;
+}

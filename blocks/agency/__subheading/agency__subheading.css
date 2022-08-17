@@ -1,0 +1,11 @@
+.agency__subheading {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+  max-width: 955px;
+  margin: 0 0 50px 0;
+}
