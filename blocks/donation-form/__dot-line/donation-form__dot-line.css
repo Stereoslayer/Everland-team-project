@@ -1,0 +1,6 @@
+.donation-form__dot-line {
+    max-width: 152px;
+    border-bottom: 1px dotted #333333;
+    padding-top: 15px;
+    width: 30vw;
+}

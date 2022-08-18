@@ -1,0 +1,4 @@
+.donation-form__supporter-sum {
+    display: flex;
+    flex-direction: column;
+}

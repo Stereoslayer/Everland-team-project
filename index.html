@@ -8,16 +8,42 @@
 </head>
 <body class="page">
 <header class="header">
-<div class="menu"> <!--  не уверен насчет div-->
+  <div class="menu"> <!--  не уверен насчет div-->
 
-</div>
-  </header>
+  </div>
+</header>
 <main class="content">
-<section class="social">
+  <section class="social">
 
-</section>
+  </section>
   <section class="donations">
-
+    <fieldset class="donations__fieldset">
+      <label>
+        <input class="radio-button" type="radio" name="donate">
+        <span class="radio-button_visible donations__donate-button">
+          <span class="donations__button-title">250 р</span></span>
+      </label>
+      <label>
+        <input class="radio-button" type="radio" name="donate">
+        <span class="radio-button_visible donations__donate-button">
+          <span class="donations__button-title">500 р</span></span>
+      </label>
+      <label>
+        <input class="radio-button" type="radio" name="donate">
+        <span class="radio-button_visible donations__donate-button">
+          <span class="donations__button-title">750 р</span></span>
+      </label>
+      <label>
+        <input class="radio-button" type="radio" name="donate">
+        <span class="radio-button_visible donations__donate-button"><span class="donations__button-title">1000 р</span></span>
+      </label>
+      <label>
+        <input class="radio-button" type="radio" name="donate">
+        <span class="radio-button_visible donations__donate-button donations__donate-button_other-sum"><span
+                class="donations__button-title">Другая сумма</span></span>
+      </label>
+      <button class="donations__supply-button" type="button">Поддержать</button>
+    </fieldset>
   </section>
   <section class="for-whom">
 
@@ -44,7 +70,177 @@
 
   </section>
   <section class="donation-form">
-
+    <h2 class="donation-form__title">Поддержите нас</h2>
+    <div class="donation-form__two-columns">
+      <form class="donation-form__form">
+        <fieldset class="donation-form__pay-type">
+          <label>
+            <input class="radio-button" type="radio" name="pay-type">
+            <span class="radio-button_visible donation-form__pay-type-button">
+          <span class="donations__button-title">Ежемесячно<img class="donation-form__info-pic"
+                                                               src="./images/Question.svg"
+                                                               alt="Информация"></span></span>
+          </label>
+          <label>
+            <input class="radio-button" type="radio" name="pay-type">
+            <span class="radio-button_visible donation-form__pay-type-button">
+          <span class="donations__button-title">Разово</span></span>
+          </label>
+        </fieldset>
+        <div class="donation-form__title-box">
+          <div class="donation-form__line"></div>
+          <h5 class="donation-form__box-title">Размеры пожертвования</h5>
+        </div>
+        <fieldset class="donation-form__sums">
+          <label>
+            <input class="radio-button" type="radio" name="donate">
+            <span class="radio-button_visible donation-form__donate-button">
+          <span class="donations__button-title">250 р</span></span>
+          </label>
+          <label>
+            <input class="radio-button" type="radio" name="donate">
+            <span class="radio-button_visible donation-form__donate-button">
+          <span class="donations__button-title">500 р</span></span>
+          </label>
+          <label>
+            <input class="radio-button" type="radio" name="donate">
+            <span class="radio-button_visible donation-form__donate-button">
+          <span class="donations__button-title">750 р</span></span>
+          </label>
+          <label>
+            <input class="radio-button" type="radio" name="donate">
+            <span class="radio-button_visible donation-form__donate-button"><span
+                    class="donations__button-title">1000 р</span></span>
+          </label>
+          <label>
+            <input class="radio-button" type="radio" name="donate">
+            <span class="radio-button_visible donation-form__donate-button donation-form__donate-button_other-sum"><span
+                    class="donations__button-title">Другая сумма</span></span>
+          </label>
+        </fieldset>
+        <p class="donation-form__paragraph">Регулярные пожертвования очень важны для Everland. Это то, что помогает
+          нашим
+          программам работать бесперебойно, что открывает новые востребованные проекты, что максимально эффективно
+          решает
+          социальную задачу.
+          Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться
+          указанная вами сумма.
+        </p>
+        <div class="donation-form__title-box">
+          <div class="donation-form__line"></div>
+          <h5 class="donation-form__box-title">Способы оплаты</h5>
+        </div>
+        <fieldset class="donation-form__pay-ways">
+          <label>
+            <input class="radio-button" type="radio" name="pay-ways">
+            <span class="radio-button_visible donation-form__pay-ways-button"><img src="./images/pay-logo.svg"></span>
+          </label>
+          <label>
+            <input class="radio-button" type="radio" name="pay-ways">
+            <span class="radio-button_visible donation-form__pay-ways-button"><img src="./images/io-logo.svg"></span>
+          </label>
+          <label>
+            <input class="radio-button" type="radio" name="pay-ways">
+            <span class="radio-button_visible donation-form__pay-ways-button"><img
+                    src="./images/webmoney-logo.svg"></span>
+          </label>
+          <button type="button" class="donation-form__slide-button"></button>
+        </fieldset>
+        <div class="donation-form__title-box">
+          <div class="donation-form__line"></div>
+          <h5 class="donation-form__box-title">Ваши данные</h5>
+        </div>
+        <fieldset class="donation-form__user-data">
+          <input type="text" class="donation-form__user-data-input" name="user-data" placeholder=" Иван Иванов">
+          <input type="email" class="donation-form__user-data-input" name="user-data"
+                 placeholder=" myemail@example.com">
+        </fieldset>
+        <fieldset class="donation-form__agreements">
+          <label>
+            <input class="checkbox" type="checkbox" name="agreements">
+            <span class="checkbox_visible"></span>
+            <span class="donation-form__agreements-title">Соглашаюсь с <a class="donation-form__link"
+                                                                          href="#">офертой</a></span>
+          </label>
+          <label>
+            <input class="checkbox" type="checkbox" name="agreements">
+            <span class="checkbox_visible"></span>
+            <span class="donation-form__agreements-title">Соглашаюсь на <a class="donation-form__link" href="#">обработку моих персональных данных</a></span>
+          </label>
+        </fieldset>
+        <button class="donation-form__submit-button" type="submit">Поддержать</button>
+      </form>
+      <div class="donation-form__supporter-box">
+        <h4 class="donation-form__supporters-title">Everland создается силами многих. Мы благодарны каждому за
+          поддержку!</h4>
+        <div class="donation-form__supporters">
+          <div class="donation-form__supporter">
+            <p class="donation-form__supporter-text">Аноним</p>
+            <div class="donation-form__dot-line"></div>
+            <div class="donation-form__supporter-sum">
+              <p class="donation-form__supporter-text">500 ₽</p>
+              <p class="donation-form__supporter-text">2 часа назад</p>
+            </div>
+          </div>
+          <div class="donation-form__supporter">
+            <p class="donation-form__supporter-text">Татьяна</p>
+            <div class="donation-form__dot-line"></div>
+            <div class="donation-form__supporter-sum">
+              <p class="donation-form__supporter-text">600 ₽</p>
+              <p class="donation-form__supporter-text">2 часа назад</p>
+            </div>
+          </div>
+          <div class="donation-form__supporter">
+            <p class="donation-form__supporter-text">Аноним</p>
+            <div class="donation-form__dot-line"></div>
+            <div class="donation-form__supporter-sum">
+              <p class="donation-form__supporter-text">300 ₽</p>
+              <p class="donation-form__supporter-text">4 часа назад</p>
+            </div>
+          </div>
+          <div class="donation-form__supporter">
+            <p class="donation-form__supporter-text">Аноним</p>
+            <div class="donation-form__dot-line"></div>
+            <div class="donation-form__supporter-sum">
+              <p class="donation-form__supporter-text">200 ₽</p>
+              <p class="donation-form__supporter-text">4 часа назад</p>
+            </div>
+          </div>
+          <div class="donation-form__supporter">
+            <p class="donation-form__supporter-text">Аноним</p>
+            <div class="donation-form__dot-line"></div>
+            <div class="donation-form__supporter-sum">
+              <p class="donation-form__supporter-text">100 ₽</p>
+              <p class="donation-form__supporter-text">6 часа назад</p>
+            </div>
+          </div>
+          <div class="donation-form__supporter">
+            <p class="donation-form__supporter-text">Наталья</p>
+            <div class="donation-form__dot-line"></div>
+            <div class="donation-form__supporter-sum">
+              <p class="donation-form__supporter-text">600 ₽</p>
+              <p class="donation-form__supporter-text">9 часа назад</p>
+            </div>
+          </div>
+          <div class="donation-form__supporter">
+            <p class="donation-form__supporter-text">Наталья</p>
+            <div class="donation-form__dot-line"></div>
+            <div class="donation-form__supporter-sum">
+              <p class="donation-form__supporter-text">600 ₽</p>
+              <p class="donation-form__supporter-text">9 часа назад</p>
+            </div>
+          </div>
+          <div class="donation-form__supporter">
+            <p class="donation-form__supporter-text">Наталья</p>
+            <div class="donation-form__dot-line"></div>
+            <div class="donation-form__supporter-sum">
+              <p class="donation-form__supporter-text">600 ₽</p>
+              <p class="donation-form__supporter-text">9 часа назад</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </main>
 <footer class="footer">

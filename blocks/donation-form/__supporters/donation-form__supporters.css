@@ -1,0 +1,19 @@
+.donation-form__supporters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .donation-form__supporters {
+        gap: 26px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .donation-form__supporters {
+        gap: 16px;
+        width: 300px;
+    }
+}
