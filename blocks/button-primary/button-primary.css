@@ -15,3 +15,15 @@
 .button-primary:active {
   background-color: #00275C;
 }
+
+@media screen and (max-width: 1279px) {
+  .button-primary {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 779px) {
+  .button-primary {
+    font-size: 14px;
+  }
+}
