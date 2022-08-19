@@ -62,3 +62,6 @@
 @import url(../blocks/stories/__story-a-container/stories__story-a-container.css);
 @import url(../blocks/stories/__name/stories__name.css);
 @import url(../blocks/stories/__container-b/stories__container-b.css);
+@import url(../blocks/stories/__play-container/stories__play-container.css);
+@import url(../blocks/stories/__play-img/stories__play-img.css);
+@import url(../blocks/stories/__play-name/stories__play-name.css);
