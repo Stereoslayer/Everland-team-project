@@ -1,0 +1,18 @@
+.stories__content-b {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  max-width: 977px;
+}
+
+@media screen and (max-width: 1279px) {
+  .stories__content-b {
+    gap: 6px;
+  }
+}
+
+@media screen and (max-width: 779px) {
+  .stories__content-b {
+    gap: 1px;
+  }
+}
