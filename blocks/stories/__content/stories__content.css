@@ -1,0 +1,6 @@
+.stories__content {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  max-width: 977px;
+}

@@ -1,0 +1,10 @@
+.stories__story-a {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 19px;
+  padding-bottom: 150px;
+}

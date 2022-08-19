@@ -1,0 +1,5 @@
+.stories__story-a-container {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+}
