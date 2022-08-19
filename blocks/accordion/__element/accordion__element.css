@@ -8,13 +8,14 @@
 @media screen and (max-width: 1279px) {
   .accordion__element {
     border-radius: 20px;
+    padding: 18px;
   }
 }
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 767px) {
   .accordion__element {
     border-radius: 15px;
     border: 1px solid #DADADA;
-    padding: 16px;
+    padding: 12px;
   }
 }
