@@ -1,5 +1,17 @@
 .stories__story-b {
-  padding: 20px;
+  padding: 30px;
   display: flex;
   gap: 20px;
+}
+
+@media screen and (max-width: 1279px) {
+  .stories__story-b {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 779px) {
+  .stories__story-b {
+    padding: 16px;
+  }
 }

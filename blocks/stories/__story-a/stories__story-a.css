@@ -8,3 +8,17 @@
   gap: 19px;
   padding-bottom: 150px;
 }
+
+@media screen and (max-width: 1279px) {
+  .stories__story-a {
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 779px) {
+  .stories__story-a {
+    flex-direction: column;
+    padding-bottom: 32px;
+    gap: 10px;
+  }
+}

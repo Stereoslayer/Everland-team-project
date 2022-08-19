@@ -4,3 +4,9 @@
   flex-direction: column;
   max-width: 977px;
 }
+
+@media screen and (max-width: 779px) {
+  .stories__content {
+    gap: 20px;
+  }
+}

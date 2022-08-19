@@ -42,6 +42,9 @@
 @import url(../blocks/button-link/_orange/button-link_orange.css);
 @import url(../blocks/button-link/_white/button-link_white.css);
 
+@import url(../blocks/button-primary/button-primary.css);
+@import url(../blocks/button-secondary/button-secondary.css);
+
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_red/card_red.css);
 @import url(../blocks/card/_blue/card_blue.css);
@@ -65,3 +68,5 @@
 @import url(../blocks/stories/__play-container/stories__play-container.css);
 @import url(../blocks/stories/__play-img/stories__play-img.css);
 @import url(../blocks/stories/__play-name/stories__play-name.css);
+@import url(../blocks/stories/__all-stories-btn/stories__all-stories-btn.css);
+@import url(../blocks/stories/__content-b/stories__content-b.css);
