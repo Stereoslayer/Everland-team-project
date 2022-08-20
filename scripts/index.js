@@ -52,7 +52,7 @@ buttonDonationsSums.forEach(function (item) {
 buttonSupply.addEventListener('click', function () {
     formDonation.scrollIntoView();
 })
-=======
+
 document.querySelectorAll('.accordion__button').forEach(el => {
   el.addEventListener('click', () => {
       el.classList.toggle('accordion__button_close');
