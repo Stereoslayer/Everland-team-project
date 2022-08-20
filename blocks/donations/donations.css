@@ -1,0 +1,17 @@
+.donations {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #E7F0FF;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 1360px;
+    justify-content: center;
+}
+
+@media screen and  (max-width: 1280px) {
+    .donations {
+        width: 90%;
+    }
+}

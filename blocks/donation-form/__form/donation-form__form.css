@@ -1,0 +1,29 @@
+.donation-form__form {
+    width: 691px;
+    /*height: 953px;*/
+    padding: 0 20px 30px 20px;
+    margin-left: 40px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 30px rgba(42, 48, 56, 0.1);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .donation-form__form {
+        width: 688px;
+        padding: 0 30px 30px 30px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .donation-form__form {
+        width: 300px;
+        padding: 0 20px 32px 20px;
+        margin: 0;
+    }
+}
