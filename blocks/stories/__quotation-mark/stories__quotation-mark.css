@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 767px) {
   .stories__quotation-mark {
     width: 24px;
     padding: 4px 0;

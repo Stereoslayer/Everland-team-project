@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 767px) {
   .directions__main-text {
     font-size: 14px;
   }

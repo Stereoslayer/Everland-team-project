@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 767px) {
   .directions__title {
     font-size: 26px;
     padding-bottom: 24px;
