@@ -1,18 +1,20 @@
 .social {
-   padding: 50px 40px 0; 
-   max-width: 1440;
-   margin: 0 auto;
+   padding: 0 40px 0; 
+   width: 100%;
+   box-sizing: border-box;
+   margin: 50px auto 0;
    position: relative;
 }
 
 @media screen and (max-width: 1439px) {
   .social {
-    padding: 56px 40px 0;
+    margin-top: 56px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .social {
-    padding: 50px 10px 0;
+    padding: 0 10px 0;
+    margin-top: 50px;
   }
 }
