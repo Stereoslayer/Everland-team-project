@@ -1,13 +1,13 @@
 .agency__mapping {
-  max-width: 1440px;
   margin: auto;
-  padding: 0 40px;
   display: flex;
   flex-direction: column;
+  width: calc(100% - 80px);
 }
 
 @media screen and (max-width: 767px) {
   .agency__mapping {
     padding: 0 10px;
+    width: calc(100% - 20px);
   }
 }
