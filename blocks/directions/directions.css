@@ -6,11 +6,11 @@
 
 @media screen and (max-width: 1279px) {
   .directions {
-    padding: 50px 10px 64px;
+    padding: 50px 40px 64px;
   }
 }
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 767px) {
   .directions {
     padding: 32px 10px 64px;
   }

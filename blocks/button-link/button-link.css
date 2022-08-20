@@ -7,7 +7,7 @@
   border-radius: 10px;
   cursor: pointer;
   align-self: flex-start;
-  padding: 12px 44px 12px 10px;
+  padding: 12px 40px 12px 12px;
   background-repeat: no-repeat;
   background-position: right 10px bottom 50%;
   background-size: 16px 16px;
@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 767px) {
   .button-link {
     font-size: 14px;
     padding: 12px 32px 12px 10px;

@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 767px) {
   .stories__all-stories-btn {
     position: relative;
     top: 0;
