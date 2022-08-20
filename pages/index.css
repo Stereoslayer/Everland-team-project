@@ -97,6 +97,7 @@
 @import url(../blocks/stories/__story-a/stories__story-a.css);
 @import url(../blocks/stories/__content/stories__content.css);
 @import url(../blocks/stories/__avatar/stories__avatar.css);
+@import url(../blocks/stories/__avatar/_violet-card-size/stories_violet-card-size.css);
 @import url(../blocks/stories/__avatar/_reverse-order/stories__avatar_reverse-order.css);
 @import url(../blocks/stories/__subtitle/stories__subtitle.css);
 @import url(../blocks/stories/__text/stories__text.css);

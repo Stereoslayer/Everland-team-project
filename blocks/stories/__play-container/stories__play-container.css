@@ -4,3 +4,17 @@
   align-items: center;
   gap: 10px;
 }
+
+@media screen and (max-width: 1279px) {
+  .stories__play-container {
+    margin-top: 0;
+    gap: 2px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .stories__play-container {
+    margin-top: 2px;
+    gap: 10px;
+  }
+}
