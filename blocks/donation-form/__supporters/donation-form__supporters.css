@@ -3,6 +3,8 @@
     flex-direction: column;
     align-items: center;
     gap: 28px;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,
+    from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
@@ -14,6 +16,6 @@
 @media screen and (max-width: 767px) {
     .donation-form__supporters {
         gap: 16px;
-        width: 300px;
+        min-width: 300px;
     }
 }
