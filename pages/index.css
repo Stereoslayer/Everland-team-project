@@ -5,9 +5,33 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/content/content.css);
-@import url(../blocks/social/social.css);
 @import url(../blocks/donations/donations.css);
 @import url(../blocks/for-whom/for-whom.css);
+
+@import url(../blocks/social/social.css);
+@import url(../blocks/social/__list/social__list.css);
+@import url(../blocks/social/__item/social__item.css);
+@import url(../blocks/social/__text-box/social__text-box.css);
+@import url(../blocks/social/__image-box/social__image-box.css);
+@import url(../blocks/social/__heading/social__heading.css);
+@import url(../blocks/social/__heading/_color/social__heading_color.css);
+@import url(../blocks/social/__main/social__main.css);
+@import url(../blocks/social/__image/social__image.css);
+@import url(../blocks/social/__image/_place/social__image_place_bottom.css);
+@import url(../blocks/social/__image/_place/social__image_place_top.css);
+@import url(../blocks/social/__slider-switcher/social__slider-switcher.css);
+
+@import url(../blocks/slider/__item/_visible/slider__item_visibe.css);
+@import url(../blocks/slider/__switcher/slider__switcher.css);
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slider/__button/_color/slider__button_color_black.css);
+@import url(../blocks/slider/__button/_color/slider__button_color_blue.css);
+@import url(../blocks/slider/__button/_nav/slider__button_nav_left.css);
+@import url(../blocks/slider/__button/_nav/slider__button_nav_right.css);
+@import url(../blocks/slider/__switcher-text/slider__switcher-text.css);
+@import url(../blocks/slider/__switcher-text/_visible/slider__switcher-text_visible.css);
+
+@import url(../blocks/fade/fade.css);
 
 @import url(../blocks/directions/directions.css);
 @import url(../blocks/directions/__title/directions__title.css);

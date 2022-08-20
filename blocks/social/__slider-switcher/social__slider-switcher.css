@@ -1,0 +1,11 @@
+.social__slider-switcher {
+  position: absolute;
+  bottom: 2px;
+}
+
+@media screen and (max-width: 767px) {
+  .social__slider-switcher {
+    right: 50%;
+    left: 50%;
+  }
+}

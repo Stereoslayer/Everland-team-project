@@ -1,0 +1,18 @@
+.social {
+   padding: 50px 40px 0; 
+   max-width: 1440;
+   margin: 0 auto;
+   position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+  .social {
+    padding: 56px 40px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .social {
+    padding: 50px 10px 0;
+  }
+}

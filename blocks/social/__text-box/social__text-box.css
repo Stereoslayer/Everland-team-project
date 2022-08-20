@@ -1,0 +1,13 @@
+.social__text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* max-width: 826px; */
+}
+
+
+@media screen and (max-width: 767px) {
+  .social__text-box {
+    gap: 16px;
+  }
+}

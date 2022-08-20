@@ -1,0 +1,14 @@
+.social__item {
+  display: none;
+  flex-direction: row;
+  gap: 14px;
+  transition: opacity 0.2s linear;
+}
+
+
+@media screen and (max-width: 767px) {
+  .social__item {
+    flex-direction: column;
+    gap: 26px;
+  }
+}
