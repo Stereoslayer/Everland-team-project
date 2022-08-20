@@ -7,11 +7,13 @@
 @media screen and (max-width: 1279px) {
   .stories__story-a-container {
     flex-direction: column;
+    gap: 8px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .stories__story-a-container {
     flex-direction: column;
+    gap: 8px;
   }
 }

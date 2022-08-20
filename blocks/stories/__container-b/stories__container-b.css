@@ -5,8 +5,16 @@
   gap: 20px;
 }
 
+@media screen and (max-width: 1279px) {
+  .stories__container-b {
+    margin-top: 10px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .stories__container-b {
     grid-template-columns: repeat(1, 1fr);
+    margin-top: 0;
+    gap: 16px;
   }
 }

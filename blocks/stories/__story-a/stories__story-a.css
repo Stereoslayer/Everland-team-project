@@ -11,14 +11,17 @@
 
 @media screen and (max-width: 1279px) {
   .stories__story-a {
-    padding-bottom: 32px;
+    padding-bottom: 28px;
+    align-items: center;
+    gap: 32px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .stories__story-a {
+    align-items: flex-start;
     flex-direction: column;
-    padding-bottom: 32px;
+    padding-bottom: 36px;
     gap: 10px;
   }
 }
