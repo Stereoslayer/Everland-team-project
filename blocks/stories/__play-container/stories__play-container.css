@@ -1,0 +1,6 @@
+.stories__play-container {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
