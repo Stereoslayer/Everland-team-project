@@ -1,0 +1,33 @@
+.button-secondary {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  cursor: pointer;
+  color: #0C4BA0;
+  border-radius: 10px;
+  border: 1px solid #0C4BA0;
+  background-color: #FFFFFF;
+}
+
+.button-secondary:hover {
+  color: #00275C;
+  border: 1px solid #00275C;
+}
+
+.button-secondary:active {
+  color: #FFFFFF;
+  border: 0;
+  background-color: #00275C;
+}
+
+@media screen and (max-width: 1279px) {
+  .button-secondary {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button-secondary {
+    font-size: 14px;
+  }
+}

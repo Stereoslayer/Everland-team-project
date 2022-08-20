@@ -1,0 +1,19 @@
+.stories__avatar {
+  width: 224px;
+  height: 224px;
+  clip-path: circle(50%);
+}
+
+@media screen and (max-width: 1279px) {
+  .stories__avatar {
+    width: 204px;
+    height: 204px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .stories__avatar {
+    width: 80px;
+    height: 80px;
+  }
+}

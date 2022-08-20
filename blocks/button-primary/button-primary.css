@@ -1,0 +1,29 @@
+.button-primary {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  cursor: pointer;
+  color: #FFFFFF;
+  border-radius: 10px;
+  background-color: #0C4BA0;
+}
+
+.button-primary:hover {
+  background-color: #4183DC;
+}
+
+.button-primary:active {
+  background-color: #00275C;
+}
+
+@media screen and (max-width: 1279px) {
+  .button-primary {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button-primary {
+    font-size: 14px;
+  }
+}
