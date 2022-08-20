@@ -1,3 +1,6 @@
 .agency__image {
   border-radius: 30px;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
 }
