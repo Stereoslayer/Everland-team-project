@@ -36,6 +36,26 @@ function chooseSumButton() {
     })
 }
 
+function slider(button, shift) {
+  const slider = button.closest(".slider");
+  const sliderList = slider.querySelectorAll(".slider__item");
+  const visibleIndex = parseInt(slider.querySelector(".slider__switcher-current").textContent,10) - 1;
+  const visibleItem = sliderList[visibleIndex];
+  let nextIndex = 0;
+
+  if (visibleIndex == sliderList.length - 1 && shift > 0) {
+    nextIndex = 0;
+  } else if (visibleIndex == 0 && shift < 0) {
+    nextIndex = sliderList.length - 1;
+  } else {
+    nextIndex = visibleIndex + shift;
+  }
+
+  visibleItem.classList.remove("slider__item_visibe");
+  sliderList[nextIndex].classList.add("slider__item_visibe");
+  slider.querySelector(".slider__switcher-current").textContent = nextIndex + 1;
+}
+
 //Event listeners
 buttonsSums.forEach(function (item) {
     item.addEventListener('click', function () {
@@ -60,45 +80,16 @@ document.querySelectorAll('.accordion__button').forEach(el => {
   });
 });
 
-let slidersButtonLeft = document.querySelectorAll(".slider__button_nav_left");
-slidersButtonLeft.forEach(leftButton => {
+const slidersButtonLeft = document.querySelectorAll(".slider__button_nav_left");
+slidersButtonLeft.forEach((leftButton) => {
   leftButton.addEventListener("click", () => {
-    const sliderList = leftButton.closest(".slider").querySelectorAll(".slider__item");
-    const sliderValue = parseInt(document.querySelector(".slider__switcher-current").textContent,10);
-
-    const visibleItem = sliderList[sliderValue - 1];
-    let sliderIndex = 0;
-    if (sliderValue == 1) {
-      sliderIndex = sliderList.length - 1;
-    } else {
-      sliderIndex = sliderValue - 2;
-    }
-    console.log(sliderIndex);
-    visibleItem.classList.remove("slider__item_visibe");
-    sliderList[sliderIndex].classList.add("slider__item_visibe");
-    document.querySelector(".slider__switcher-current").textContent = sliderIndex + 1;
+    slider(leftButton, -1);
   });
 });
 
-let slidersButtonRight = document.querySelectorAll(".slider__button_nav_right");
+const slidersButtonRight = document.querySelectorAll(".slider__button_nav_right");
 slidersButtonRight.forEach((rightButton) => {
   rightButton.addEventListener("click", () => {
-    const sliderList = rightButton.closest(".slider").querySelectorAll(".slider__item");
-    const sliderValue = parseInt(document.querySelector(".slider__switcher-current").textContent, 10);
-
-    console.log(sliderList);
-
-    const visibleItem = sliderList[sliderValue - 1];
-    let sliderIndex = 0;
-    if (sliderValue == sliderList.length) {
-      sliderIndex = 0;
-    } else {
-      sliderIndex = sliderValue;
-    }
-    console.log(sliderIndex);
-    visibleItem.classList.remove("slider__item_visibe");
-    sliderList[sliderIndex].classList.add("slider__item_visibe");
-    document.querySelector(".slider__switcher-current").textContent = sliderIndex + 1;
+    slider(rightButton, 1);
   });
 });
-

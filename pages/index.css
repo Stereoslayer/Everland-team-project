@@ -26,18 +26,6 @@
 @import url(../blocks/social/__image/_place/social__image_place_top.css);
 @import url(../blocks/social/__slider-switcher/social__slider-switcher.css);
 
-@import url(../blocks/slider/__item/_visible/slider__item_visibe.css);
-@import url(../blocks/slider/__switcher/slider__switcher.css);
-@import url(../blocks/slider/__button/slider__button.css);
-@import url(../blocks/slider/__button/_color/slider__button_color_black.css);
-@import url(../blocks/slider/__button/_color/slider__button_color_blue.css);
-@import url(../blocks/slider/__button/_nav/slider__button_nav_left.css);
-@import url(../blocks/slider/__button/_nav/slider__button_nav_right.css);
-@import url(../blocks/slider/__switcher-text/slider__switcher-text.css);
-@import url(../blocks/slider/__switcher-text/_visible/slider__switcher-text_visible.css);
-
-@import url(../blocks/fade/fade.css);
-
 @import url(../blocks/directions/directions.css);
 @import url(../blocks/directions/__title/directions__title.css);
 @import url(../blocks/directions/__card-title/directions__card-title.css);
@@ -63,7 +51,33 @@
 @import url(../blocks/digits/__title/digits__title.css);
 @import url(../blocks/digits/__numeric/digits__numeric.css);
 @import url(../blocks/digits/__subtitle/digits__subtitle.css);
+
 @import url(../blocks/special-projects/special-projects.css);
+@import url(../blocks/special-projects/__item/special-projects__item.css);
+@import url(../blocks/special-projects/__item/_color/special-projects__item_color_blue.css);
+@import url(../blocks/special-projects/__item/_color/special-projects__item_color_green.css);
+@import url(../blocks/special-projects/__item/_color/special-projects__item_color_orange.css);
+@import url(../blocks/special-projects/__item/_color/special-projects__item_color_purple.css);
+@import url(../blocks/special-projects/__main/special-projects__main.css);
+@import url(../blocks/special-projects/__title/special-projects__title.css);
+@import url(../blocks/special-projects/__heading/special-projects__heading.css);
+@import url(../blocks/special-projects/__description/special-projects__description.css);
+@import url(../blocks/special-projects/__button/special-projects__button.css);
+@import url(../blocks/special-projects/__image/special-projects__image.css);
+@import url(../blocks/special-projects/__slider-switcher/special-projects__slider-switcher.css);
+
+@import url(../blocks/slider/__item/_visible/slider__item_visibe.css);
+@import url(../blocks/slider/__switcher/slider__switcher.css);
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slider/__button/_color/slider__button_color_black.css);
+@import url(../blocks/slider/__button/_color/slider__button_color_blue.css);
+@import url(../blocks/slider/__button/_nav/slider__button_nav_left.css);
+@import url(../blocks/slider/__button/_nav/slider__button_nav_right.css);
+@import url(../blocks/slider/__switcher-text/slider__switcher-text.css);
+@import url(../blocks/slider/__switcher-text/_visible/slider__switcher-text_visible.css);
+
+@import url(../blocks/fade/fade.css);
+
 @import url(../blocks/stories/stories.css);
 @import url(../blocks/agency/agency.css);
 @import url(../blocks/agency/__mapping/agency__mapping.css);
@@ -122,6 +136,8 @@
 
 @import url(../blocks/button-primary/button-primary.css);
 @import url(../blocks/button-secondary/button-secondary.css);
+@import url(../blocks/button-secondary/_color/button-secondary_color_black.css);
+@import url(../blocks/button-secondary/_color/button-secondary_color_blue.css);
 
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_red/card_red.css);
