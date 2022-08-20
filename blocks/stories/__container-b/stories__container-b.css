@@ -1,0 +1,12 @@
+.stories__container-b {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+}
+
+@media screen and (max-width: 779px) {
+  .stories__container-b {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
