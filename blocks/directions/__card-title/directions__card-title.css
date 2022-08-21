@@ -1,0 +1,25 @@
+.directions__card-title {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  font-size: 34px;
+  line-height: 40.8px;
+  font-weight: 700;
+  color: #333333;
+}
+
+@media screen and (max-width: 1279px) {
+  .directions__card-title {
+    padding-bottom: 10px;
+    font-size: 26px;
+    line-height: 31.2px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .directions__card-title {
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+}

@@ -1,0 +1,13 @@
+.button-secondary_color_black {
+  color: #333333;
+  border: 1px solid #333333;
+}
+
+.button-secondary_color_black:hover {
+  border-width: 2px;
+}
+
+.button-secondary_color_black:active {
+  color: #FFFFFF;
+  background-color: #333333;
+}

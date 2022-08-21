@@ -1,0 +1,21 @@
+.news__subtitle {
+  font-family: "Raleway", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #333333;
+  margin: 0 0 30px;
+}
+
+@media screen and (max-width: 1279px) {
+  .news__subtitle {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__subtitle {
+    font-size: 12px;
+  }
+}
