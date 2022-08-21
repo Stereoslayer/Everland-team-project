@@ -224,8 +224,28 @@
     </fieldset>
   </section>
   <section class="for-whom">
-
-  </section>
+            <h2 class="for-whom__title">Для кого мы работаем</h2>
+            <div class="for-whom__cards">
+                <div class="card card_white for-whom__card">
+                    <img class="for-whom__icon" src="./images/for-whom/disabled.svg" alt="Для людей с инвалидностью">
+                    <h3 class="for-whom__card-title">Для людей с инвалидностью</h3>
+                    <p class="for-whom__main-text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+                    <a class="button-link for-whom__button-link button-link button-link_blue" href="#">Подробнее</a>
+                </div>
+                <div class="card card_white for-whom__card">
+                    <img class="for-whom__icon" src="./images/for-whom/briefcase.svg" alt="Для работодателей">
+                    <h3 class="for-whom__card-title">Для работодателей</h3>
+                    <p class="for-whom__main-text">Помогаем создать устойчивые инклюзивные команды, вовлекаем интеллектуальных волонтеров</p>
+                    <a class="button-link for-whom__button-link button-link button-link_orange" href="#">Подробнее</a>
+                </div>
+                <div class="card card_white for-whom__card">
+                    <img class="for-whom__icon" src="./images/for-whom/person.svg" alt="Для КСО-партнеров">
+                    <h3 class="for-whom__card-title">Для КСО-партнеров </h3>
+                    <p class="for-whom__main-text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+                    <a class="button-link for-whom__button-link button-link button-link_green" href="#">Подробнее</a>
+                </div>
+            </div>
+        </section>
   <section class="directions">
     <h2 class="directions__title">Наши направления</h2>
     <div class="directions__cards">
@@ -729,8 +749,57 @@
   </section>
 </main>
 <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__about-everland">
+                <img class="logo logo_place_footer" src="./images/Logo.svg" alt="Логотип Everland">
+                <p class="footer__text-everland">Платформа Everland — инклюзивный социальный предпринимательский проект. Реализуется ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей».</p>
+            </div>
+            <div class="footer__columns">
+                <nav class="footer__project">
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">О проекте</a></li>
+                        <li><a href="#" class="footer__link">Услуги</a></li>
+                        <li><a href="#" class="footer__link">Людям с инвалидностью</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer__tools">
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Программы</a></li>
+                        <li><a href="#" class="footer__link">Платформа</a></li>
+                        <li><a href="#" class="footer__link">Мы благодарны</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__support">
+                <h4 class="footer__title">При поддержке</h4>
+                <div class="footer__support-icons">
+                    <img class="footer__support-icon-beline" src="./images/footer/bilain.svg" alt="Билайн">
+                    <img class="footer__support-icon-fond" src="./images/footer/fond-president-grant.svg" alt="Фонд президентских грантов">
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__phones">
+                        <p class="footer__phone">+7 (495) 646 04 28</p>
+                        <p class="footer__phone">+7 (985) 473 08 93</p>
+                    </div>
+                    <p class="footer__address">Гоголевский бульвар, дом 8, строение 2, офис 8, Москва, Россия.</p>
+                </div>
+            </div>
 
-</footer>
+            <div class="footer__social-lisenses">
+                <h4 class=footer__title ">Подписывайтесь на нас в соцсетях</h4>
+            <div class="footer__social-icons ">
+                <a class="footer__social-link " href="# "><img src="./images/footer/telegram.svg " class="footer__social-icon " alt="Telegram "></a>
+            <a class="footer__social-link " href="# "><img src="./images/footer/vk.svg " class="footer__social-icon " alt="VK "></a>
+        </div>
+            <p class="footer__lisenses ">© ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей». Если не указано иначе, все материалы сайта доступны по лицензии Creative Commons CC-BY-SA 3.0</p>
+            </div>
+        </div>
+        <div class="footer__author ">
+            <img class="footer__logo-yandex " src="./images/footer/yandex.svg ">
+            <p class="footer__text-yandex ">сделано при участии Яндекс Практикума</p>
+        </div>
+
+    </footer>
 <template id="other-sum-form">
   <input type="text" class="donation-form__user-data-input" name="user-data" placeholder=" Введите сумму"
          id="other-sum-input">
