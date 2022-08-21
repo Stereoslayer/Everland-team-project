@@ -1,0 +1,44 @@
+.donations__supply-button {
+    text-align: center;
+    width: 179px;
+    height: 48px;
+    background: #0C4BA0;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-left: 50px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.donations__supply-button:hover {
+    background: #4183DC;
+}
+
+.donations__supply-button:focus {
+    background: #00275C;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .donations__supply-button {
+        width: 143px;
+        height: 44px;
+        margin-left: 12px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .donations__supply-button {
+        width: 260px;
+        margin: 0;
+        font-size: 14px;
+        border-radius: 8px;
+        margin-top: 16px;
+    }
+}

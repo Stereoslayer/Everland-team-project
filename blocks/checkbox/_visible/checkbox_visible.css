@@ -1,0 +1,19 @@
+.checkbox_visible {
+    display: inline-block;
+    vertical-align: top;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    background: url("../../../images/Icon_check.svg") no-repeat center;
+}
+
+.checkbox_visible:hover {
+    border: 2px solid #333333;
+}
+
+.checkbox:checked + .checkbox_visible {
+    background: #DADADA url("../../../images/Icon_check.svg") no-repeat center;
+}

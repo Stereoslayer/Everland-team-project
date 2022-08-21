@@ -1,0 +1,26 @@
+.agency__subheading {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+  max-width: 955px;
+  margin: 0 0 50px 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .agency__subheading {
+    font-size: 20px;
+    max-width: 504px;
+    margin-bottom: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .agency__subheading {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+}
