@@ -19,8 +19,8 @@ function setMobileMenu() {
   );
   primaryMenuSubList.forEach(function (item) {
     // если уже стоят стили, то убираем
-    item.style["height"] = ""; 
-    item.style["padding-top"] = ""; 
+    item.style["height"] = "";
+    item.style["padding-top"] = "";
     item.style["transition"] = "";
     item.previousElementSibling.classList.remove("primary-menu__arrow_opened");
 
@@ -54,7 +54,7 @@ if (isMobiletScreen) { setMobileMenu() }
 // Здесь обрабатывается клик на крестик, открывается и закрывается верхнее меню
 headerMenu.addEventListener("click", function (e) {
   let scrollTop = window.pageYOffset;
-  if(isTabletScreen) {body.classList.toggle("body_lock")}
+  body.classList.toggle("body_lock");
   menuIconBurger.classList.toggle("header__icon-burger_active");
   primaryMenu.classList.toggle("primary-menu_active");
   if (scrollTop === 0 && !isTabletScreen) {
@@ -106,7 +106,7 @@ function onPrimaryMenuLinkClick(e) {
   console.log(isTabletScreen);
   if(isTabletScreen) {body.classList.toggle("body_lock")};
   primaryMenu.classList.toggle("primary-menu_active");
-  menuIconBurger.classList.toggle("header__icon-burger_active");  
+  menuIconBurger.classList.toggle("header__icon-burger_active");
 }
 // --------------------- Конец блока меню в шапке----------------------------------------
 
