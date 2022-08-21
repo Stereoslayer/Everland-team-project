@@ -1,0 +1,19 @@
+.stories__story-b {
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1279px) {
+  .stories__story-b {
+    align-items: center;
+    padding: 20px;
+    gap: 17px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .stories__story-b {
+    padding: 16px;
+  }
+}

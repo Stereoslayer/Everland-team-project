@@ -1,0 +1,17 @@
+.digits {
+  margin: 150px auto 0;
+  width: calc(100% - 80px);
+}
+
+@media screen and (max-width: 1279px ) {
+  .digits {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .digits {
+    margin-top: 64px;
+    width: calc(100% - 20px);
+  }
+}
