@@ -1,6 +1,5 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
-
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/menu/menu.css);
@@ -12,7 +11,6 @@
 @import url(../blocks/donations/__donate-button/_other-sum/donations__donate-button_other-sum.css);
 @import url(../blocks/donations/__supply-button/donations__supply-button.css);
 @import url(../blocks/for-whom/for-whom.css);
-
 @import url(../blocks/social/social.css);
 @import url(../blocks/social/__list/social__list.css);
 @import url(../blocks/social/__item/social__item.css);
@@ -25,7 +23,14 @@
 @import url(../blocks/social/__image/_place/social__image_place_bottom.css);
 @import url(../blocks/social/__image/_place/social__image_place_top.css);
 @import url(../blocks/social/__slider-switcher/social__slider-switcher.css);
-
+@import url(../blocks/for-whom/for-whom.css);
+@import url(../blocks/for-whom/__button-link/for-whom__button-link.css);
+@import url(../blocks/for-whom/__card-title/for-whom__card-title.css);
+@import url(../blocks/for-whom/__cards/for-whom__cards.css);
+@import url(../blocks/for-whom/__card/for-whom__card.css);
+@import url(../blocks/for-whom/__icon/for-whom__icon.css);
+@import url(../blocks/for-whom/__main-text/for-whom__main-text.css);
+@import url(../blocks/for-whom/__title/for-whom__title.css);
 @import url(../blocks/directions/directions.css);
 @import url(../blocks/directions/__title/directions__title.css);
 @import url(../blocks/directions/__card-title/directions__card-title.css);
@@ -33,7 +38,6 @@
 @import url(../blocks/directions/__main-text/directions__main-text.css);
 @import url(../blocks/directions/__cards/directions__cards.css);
 @import url(../blocks/directions/__card/directions__card.css);
-
 @import url(../blocks/benefits/benefits.css);
 @import url(../blocks/benefits/__heading/benefits__heading.css);
 @import url(../blocks/accordion/accordion.css);
@@ -51,7 +55,6 @@
 @import url(../blocks/digits/__title/digits__title.css);
 @import url(../blocks/digits/__numeric/digits__numeric.css);
 @import url(../blocks/digits/__subtitle/digits__subtitle.css);
-
 @import url(../blocks/special-projects/special-projects.css);
 @import url(../blocks/special-projects/__item/special-projects__item.css);
 @import url(../blocks/special-projects/__item/_color/special-projects__item_color_blue.css);
@@ -65,7 +68,6 @@
 @import url(../blocks/special-projects/__button/special-projects__button.css);
 @import url(../blocks/special-projects/__image/special-projects__image.css);
 @import url(../blocks/special-projects/__slider-switcher/special-projects__slider-switcher.css);
-
 @import url(../blocks/slider/__item/_visible/slider__item_visibe.css);
 @import url(../blocks/slider/__switcher/slider__switcher.css);
 @import url(../blocks/slider/__button/slider__button.css);
@@ -75,9 +77,7 @@
 @import url(../blocks/slider/__button/_nav/slider__button_nav_right.css);
 @import url(../blocks/slider/__switcher-text/slider__switcher-text.css);
 @import url(../blocks/slider/__switcher-text/_visible/slider__switcher-text_visible.css);
-
 @import url(../blocks/fade/fade.css);
-
 @import url(../blocks/stories/stories.css);
 @import url(../blocks/agency/agency.css);
 @import url(../blocks/agency/__mapping/agency__mapping.css);
@@ -88,7 +88,6 @@
 @import url(../blocks/agency/__image/agency__image.css);
 @import url(../blocks/agency/__caption/heading__caption.css);
 @import url(../blocks/agency/__veiw/agency__veiw.css);
-
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/__all-news-button/news__all-news-button.css);
 @import url(../blocks/news/__heading/news__heading.css);
@@ -102,8 +101,6 @@
 @import url(../blocks/news/__title/news__title.css);
 @import url(../blocks/news/__description/news__description.css);
 @import url(../blocks/news/__image/news__image.css);
-
-
 @import url(../blocks/donation-form/donation-form.css);
 @import url(../blocks/donation-form/__title/donation-form__title.css);
 @import url(../blocks/donation-form/__two-columns/donation-form__two-columns.css);
@@ -139,7 +136,6 @@
 @import url(../blocks/checkbox/checkbox.css);
 @import url(../blocks/checkbox/_visible/checkbox_visible.css);
 @import url(../blocks/footer/footer.css);
-
 @import url(../blocks/button-link/button-link.css);
 @import url(../blocks/button-link/__title/button-link__title.css);
 @import url(../blocks/button-link/__arrow/button-link__arrow.css);
@@ -148,19 +144,16 @@
 @import url(../blocks/button-link/_green/button-link_green.css);
 @import url(../blocks/button-link/_orange/button-link_orange.css);
 @import url(../blocks/button-link/_white/button-link_white.css);
-
 @import url(../blocks/button-primary/button-primary.css);
 @import url(../blocks/button-secondary/button-secondary.css);
 @import url(../blocks/button-secondary/_color/button-secondary_color_black.css);
 @import url(../blocks/button-secondary/_color/button-secondary_color_blue.css);
-
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_red/card_red.css);
 @import url(../blocks/card/_blue/card_blue.css);
 @import url(../blocks/card/_green/card_green.css);
 @import url(../blocks/card/_white/card_white.css);
 @import url(../blocks/card/_violet/card_violet.css);
-
 @import url(../blocks/stories/stories.css);
 @import url(../blocks/stories/__title/stories__title.css);
 @import url(../blocks/stories/__story-a/stories__story-a.css);
@@ -180,4 +173,3 @@
 @import url(../blocks/stories/__play-name/stories__play-name.css);
 @import url(../blocks/stories/__all-stories-btn/stories__all-stories-btn.css);
 @import url(../blocks/stories/__content-b/stories__content-b.css);
-
