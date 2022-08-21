@@ -1,0 +1,19 @@
+.primary-menu__link {
+    font: 700 34px/40.8px "Raleway", Arial, sans-serif;
+    color: #333;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1439px) {
+
+    .primary-menu__link {
+        font: 700 20px/24px "Raleway", Arial, sans-serif;
+    }
+}
+
+@media screen and (max-width: 749px) {
+
+    .primary-menu__link {
+        font: 700 18px/21.6px "Raleway", Arial, sans-serif;
+    }
+}

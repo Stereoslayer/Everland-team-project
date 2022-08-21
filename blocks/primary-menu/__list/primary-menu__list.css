@@ -1,0 +1,26 @@
+.primary-menu__list {
+    margin: 0;
+    padding: 40px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, auto);
+    column-gap: 22px;
+}
+
+@media screen and (max-width: 1439px) {
+
+    .primary-menu__list {
+        padding-top: 33px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 749px) {
+
+    .primary-menu__list {
+        display: block;
+        padding: 32px 15px 21px 15px;
+    }
+}
