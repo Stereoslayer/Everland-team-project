@@ -1,3 +1,4 @@
+// --------------------- Этот блок касается всего меню в шапке----------------------------------------
 const header = document.querySelector(".header");
 const primaryMenu = document.querySelector(".primary-menu");
 const headerMenu = document.querySelector(".header__menu");
@@ -106,4 +107,5 @@ function onPrimaryMenuLinkClick(e) {
   primaryMenu.classList.toggle("primary-menu_active");
   menuIconBurger.classList.toggle("header__icon-burger_active");  
 }
+// --------------------- Конец блока меню в шапке----------------------------------------
 
