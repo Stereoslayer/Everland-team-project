@@ -1,0 +1,22 @@
+.news {
+  margin: 100px auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 0 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1279px) {
+  .news {
+    margin: 50px auto 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news {
+    padding: 0 10px;
+    margin: 32px auto;
+  }
+}
