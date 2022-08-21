@@ -1,0 +1,17 @@
+.footer__phones {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+
+@media screen and (max-width: 1279px) {
+    .footer__phones {}
+}
+
+@media screen and (max-width: 779px) {
+    .footer_phones {
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,8 @@
+.footer__author {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20.65px;
+    padding-top: 42px;
+}
