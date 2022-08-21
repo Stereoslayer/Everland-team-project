@@ -16,11 +16,11 @@
 @import url(../blocks/social/social.css);
 @import url(../blocks/social/__list/social__list.css);
 @import url(../blocks/social/__item/social__item.css);
-@import url(../blocks/social/__main/social__main.css);
-@import url(../blocks/social/__images/social__images.css);
+@import url(../blocks/social/__text-box/social__text-box.css);
+@import url(../blocks/social/__image-box/social__image-box.css);
 @import url(../blocks/social/__heading/social__heading.css);
 @import url(../blocks/social/__heading/_color/social__heading_color.css);
-@import url(../blocks/social/__description/social__description.css);
+@import url(../blocks/social/__main/social__main.css);
 @import url(../blocks/social/__image/social__image.css);
 @import url(../blocks/social/__image/_place/social__image_place_bottom.css);
 @import url(../blocks/social/__image/_place/social__image_place_top.css);
@@ -88,22 +88,7 @@
 @import url(../blocks/agency/__image/agency__image.css);
 @import url(../blocks/agency/__caption/heading__caption.css);
 @import url(../blocks/agency/__veiw/agency__veiw.css);
-
 @import url(../blocks/news/news.css);
-@import url(../blocks/news/__all-news-button/news__all-news-button.css);
-@import url(../blocks/news/__heading/news__heading.css);
-@import url(../blocks/news/__list/news__list.css);
-@import url(../blocks/news/__item/news__item.css);
-@import url(../blocks/news/__item/_color/news__item_color_blue.css);
-@import url(../blocks/news/__item/_color/news__item_color_green.css);
-@import url(../blocks/news/__item/_color/news__item_color_orange.css);
-@import url(../blocks/news/__item/_color/news__item_color_purple.css);
-@import url(../blocks/news/__subtitle/news__subtitle.css);
-@import url(../blocks/news/__title/news__title.css);
-@import url(../blocks/news/__description/news__description.css);
-@import url(../blocks/news/__image/news__image.css);
-
-
 @import url(../blocks/donation-form/donation-form.css);
 @import url(../blocks/donation-form/__title/donation-form__title.css);
 @import url(../blocks/donation-form/__two-columns/donation-form__two-columns.css);
