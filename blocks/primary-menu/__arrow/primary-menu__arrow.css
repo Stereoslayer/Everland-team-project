@@ -1,0 +1,10 @@
+@media screen and (max-width: 749px) {
+    .primary-menu__arrow {
+        display: block;
+        height: 7px;
+        width: 12px;
+        transition: transform 0.3s ease 0s;
+        margin: 0 0 0 5px;
+        background: url(../../../images/arrow.svg) no-repeat top right;
+    }
+}

@@ -1,0 +1,32 @@
+.header {
+    max-width: 1440px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    font: 700 20px/26px "Raleway", Arial, sans-serif;
+    color: #333;
+    box-sizing: border-box;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #fff;
+    z-index: 10;
+}
+
+@media screen and (max-width: 1439px) {
+    .header {
+        gap: 24px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        font: 500 16px/19.2px "Raleway", Arial, sans-serif;
+    }
+}
+
+@media screen and (max-width: 749px) {
+
+    .header {
+        padding: 0 15px;
+    }
+}

@@ -1,3 +1,38 @@
+@import url("../blocks/body/body.css");
+@import url("../blocks/body/body_lock.css");
+
+@import url("../blocks/btn/btn.css");
+
+
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/header_active.css");
+@import url("../blocks/header/__button-platform/header__button-platform.css");
+@import url("../blocks/header/__button-support/header__button-support.css");
+@import url("../blocks/header/__buttons/header__buttons.css");
+@import url("../blocks/header/__icon-burger/header__icon-burger.css");
+@import url("../blocks/header/__icon-burger/header__icon-burger_active.css");
+@import url("../blocks/header/__logo-img/header__logo-img.css");
+@import url("../blocks/header/__logo-link/header__logo-link.css");
+@import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__menu-title/header__menu-title.css");
+@import url("../blocks/header/__menu/header__menu.css");
+
+@import url("../blocks/primary-menu/primary-menu.css");
+@import url("../blocks/primary-menu/primary-menu_active.css");
+@import url("../blocks/primary-menu/__arrow/primary-menu__arrow.css");
+@import url("../blocks/primary-menu/__arrow/primary-menu__arrow_opened.css");
+@import url("../blocks/primary-menu/__link/primary-menu__link.css");
+@import url("../blocks/primary-menu/__list-item/primary-menu__list-item.css");
+@import url("../blocks/primary-menu/__list-item_empty/primary-menu__list-item_empty.css");
+@import url("../blocks/primary-menu/__list/primary-menu__list.css");
+@import url("../blocks/primary-menu/__sub-link/primary-menu__sub-link.css");
+@import url("../blocks/primary-menu/__sub-list-item/primary-menu__sub-list-item.css");
+@import url("../blocks/primary-menu/__sub-list/primary-menu__sub-list.css");
+
+@import url("../blocks/secondary-menu/secondary-menu.css");
+@import url("../blocks/secondary-menu/__link/secondary-menu__link.css");
+@import url("../blocks/secondary-menu/__list/secondary-menu__list.css");
+=======
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
@@ -180,4 +215,3 @@
 @import url(../blocks/stories/__play-name/stories__play-name.css);
 @import url(../blocks/stories/__all-stories-btn/stories__all-stories-btn.css);
 @import url(../blocks/stories/__content-b/stories__content-b.css);
-
