@@ -1,0 +1,13 @@
+.agency__mapping {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 80px);
+}
+
+@media screen and (max-width: 767px) {
+  .agency__mapping {
+    padding: 0 10px;
+    width: calc(100% - 20px);
+  }
+}

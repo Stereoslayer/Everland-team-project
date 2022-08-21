@@ -1,0 +1,15 @@
+.slider__button_color_black {
+  background-color: #333333;
+}
+
+.slider__button_color_black:hover {
+  background-color: #0C4BA0;
+}
+
+.slider__button_color_black:active {
+  background-color: #00275C;
+}
+
+.slider__button_color_black:disabled {
+  background-color: #C4C4C4;
+}
