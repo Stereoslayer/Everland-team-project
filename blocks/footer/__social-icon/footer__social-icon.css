@@ -2,7 +2,7 @@
     background-size: contain;
     border-radius: 10px;
     max-width: 64px;
-    background-color: #0C4BA0;
+    background: transparent;
 }
 
 @media screen and (max-width: 1279px) {

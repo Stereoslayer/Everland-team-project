@@ -1,15 +1,8 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
-
-
-
-
 @import url(../blocks/body/body.css);
 @import url(../blocks/body/body_lock.css);
-
 @import url(../blocks/btn/btn.css);
-
-
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/header_active.css);
 @import url(../blocks/header/__button-platform/header__button-platform.css);
@@ -22,7 +15,6 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu-title/header__menu-title.css);
 @import url(../blocks/header/__menu/header__menu.css);
-
 @import url(../blocks/primary-menu/primary-menu.css);
 @import url(../blocks/primary-menu/primary-menu_active.css);
 @import url(../blocks/primary-menu/__arrow/primary-menu__arrow.css);
@@ -34,13 +26,9 @@
 @import url(../blocks/primary-menu/__sub-link/primary-menu__sub-link.css);
 @import url(../blocks/primary-menu/__sub-list-item/primary-menu__sub-list-item.css);
 @import url(../blocks/primary-menu/__sub-list/primary-menu__sub-list.css);
-
 @import url(../blocks/secondary-menu/secondary-menu.css);
 @import url(../blocks/secondary-menu/__link/secondary-menu__link.css);
 @import url(../blocks/secondary-menu/__list/secondary-menu__list.css);
-
-
-
 @import url(../blocks/page/page.css);
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/content/content.css);
@@ -141,7 +129,6 @@
 @import url(../blocks/news/__title/news__title.css);
 @import url(../blocks/news/__description/news__description.css);
 @import url(../blocks/news/__image/news__image.css);
-
 @import url(../blocks/donation-form/donation-form.css);
 @import url(../blocks/donation-form/__title/donation-form__title.css);
 @import url(../blocks/donation-form/__two-columns/donation-form__two-columns.css);
@@ -180,21 +167,20 @@
 @import url(../blocks/button-link/button-link.css);
 @import url(../blocks/button-link/__title/button-link__title.css);
 @import url(../blocks/button-link/__arrow/button-link__arrow.css);
-@import url(../blocks/button-link/_blue/button-link_blue.css);
-@import url(../blocks/button-link/_green/button-link_green.css);
-@import url(../blocks/button-link/_green/button-link_green.css);
-@import url(../blocks/button-link/_orange/button-link_orange.css);
-@import url(../blocks/button-link/_white/button-link_white.css);
+@import url(../blocks/button-link/_color/_blue/button-link_color_blue.css);
+@import url(../blocks/button-link/_color/_green/button-link_color_green.css);
+@import url(../blocks/button-link/_color/_orange/button-link_color_orange.css);
+@import url(../blocks/button-link/_color/_white/button-link_color_white.css);
 @import url(../blocks/button-primary/button-primary.css);
 @import url(../blocks/button-secondary/button-secondary.css);
 @import url(../blocks/button-secondary/_color/button-secondary_color_black.css);
 @import url(../blocks/button-secondary/_color/button-secondary_color_blue.css);
 @import url(../blocks/card/card.css);
-@import url(../blocks/card/_red/card_red.css);
-@import url(../blocks/card/_blue/card_blue.css);
-@import url(../blocks/card/_green/card_green.css);
-@import url(../blocks/card/_white/card_white.css);
-@import url(../blocks/card/_violet/card_violet.css);
+@import url(../blocks/card/_color/_blue/card__color_blue.css);
+@import url(../blocks/card/_color/_green/card_color_green.css);
+@import url(../blocks/card/_color/_red/card_color_red.css);
+@import url(../blocks/card/_color/_violet/card_color_violet.css);
+@import url(../blocks/card/_color/_white/card_color_white.css);
 @import url(../blocks/stories/stories.css);
 @import url(../blocks/stories/__title/stories__title.css);
 @import url(../blocks/stories/__story-a/stories__story-a.css);
@@ -214,7 +200,6 @@
 @import url(../blocks/stories/__play-name/stories__play-name.css);
 @import url(../blocks/stories/__all-stories-btn/stories__all-stories-btn.css);
 @import url(../blocks/stories/__content-b/stories__content-b.css);
-
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__about-everland/footer__about-everland.css);
 @import url(../blocks/footer/__container/footer__container.css);
@@ -239,4 +224,3 @@
 @import url(../blocks/footer/__support-icon-fond/footer__support-icon-fond.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
-
