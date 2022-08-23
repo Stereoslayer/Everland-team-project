@@ -4,11 +4,13 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  min-height: 367px;
 }
 
 @media screen and (max-width: 1279px) {
   .directions__card {
     padding: 30px;
+    min-height: 0;
   }
 }
 
