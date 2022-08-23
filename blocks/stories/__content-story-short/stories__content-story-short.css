@@ -1,4 +1,4 @@
-.stories__content-b {
+.stories__content-story-short {
   display: flex;
   gap: 20px;
   flex-direction: column;
@@ -6,13 +6,13 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .stories__content-b {
+  .stories__content-story-short {
     gap: 6px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .stories__content-b {
+  .stories__content-story-short {
     gap: 1px;
   }
 }
