@@ -7,8 +7,8 @@
   letter-spacing: -0.01em;
   color: #333333;
   max-width: 603px;
-  padding: 43px 0 0;
   margin: 0;
+  padding: 43px 0 0;
 }
 
 @media screen and (max-width: 1439px) {
@@ -20,8 +20,8 @@
 
 @media screen and (max-width: 767px) {
   .special-projects__title {
-    max-width: 100%;
     font-size: 26px;
+    max-width: 100%;
     padding-top: 8px;
   }
 }

@@ -3,10 +3,10 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
+  font-feature-settings: "pnum" on, "lnum" on;
   line-height: 130%;
   color: #333333;
   margin: 0 0 30px;
-  font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 @media screen and (max-width: 1279px) {

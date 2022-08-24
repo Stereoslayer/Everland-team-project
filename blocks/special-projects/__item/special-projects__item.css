@@ -1,16 +1,17 @@
 .special-projects__item {
+  box-sizing: border-box;
   border-radius: 30px;
   display: none;
   flex-direction: row;
   gap: 14px;
-  transition: opacity 0.2s linear;
   padding: 30px;
-  box-sizing: border-box;
+  transition: opacity 0.2s linear;
+
 }
 
 @media screen and (max-width: 767px) {
   .special-projects__item {
-    padding: 68px 23px 24px;
     flex-direction: column-reverse;
+    padding: 68px 23px 24px;
   }
 }

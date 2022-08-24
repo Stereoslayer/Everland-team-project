@@ -3,12 +3,12 @@
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 130%;
-  color: #333333;
-  margin: 0 0 60px;
-  flex-grow: 1;
   font-feature-settings: 'pnum' on, 'lnum' on;
+  line-height: 130%;
   letter-spacing: -0.001em;
+  color: #333333;
+  flex-grow: 1;
+  margin: 0 0 60px;
 }
 
 @media screen and (max-width: 1279px) {
