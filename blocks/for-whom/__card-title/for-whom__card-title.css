@@ -10,13 +10,16 @@
 
 @media screen and (max-width: 1279px) {
     .for-whom__card-title {
-        font-size: 20px;
+        font-size: 26px;
+        line-height: 120%;
         padding-top: 20px;
     }
 }
 
 @media screen and (max-width: 779px) {
     .for-whom__card-title {
-        font-size: 16px;
+        max-width: 231px;
+        font-size: 18px;
+        padding-top: 20px;
     }
 }

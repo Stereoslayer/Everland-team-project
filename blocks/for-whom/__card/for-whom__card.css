@@ -1,5 +1,4 @@
 .for-whom__card {
-    min-height: 428px;
     display: flex;
     padding: 30px;
     flex-direction: column;
@@ -8,13 +7,13 @@
 
 @media screen and (max-width: 1279px) {
     .for-whom__card {
-        min-height: 298px;
+        max-width: 450px;
     }
 }
 
 @media screen and (max-width: 779px) {
     .for-whom__card {
-        min-height: 234px;
         padding: 24px;
+        max-width: 300px;
     }
 }

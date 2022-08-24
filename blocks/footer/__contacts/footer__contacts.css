@@ -16,5 +16,7 @@
 @media screen and (max-width: 779px) {
     .footer__contacts {
         padding-top: 47px;
+        row-gap: 10px;
+        column-gap: 0px;
     }
 }

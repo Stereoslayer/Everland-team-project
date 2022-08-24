@@ -7,11 +7,13 @@
 }
 
 @media screen and (max-width: 1279px) {
-    .footer__phones {}
+    .footer__phones {
+        gap: 16px;
+    }
 }
 
 @media screen and (max-width: 779px) {
-    .footer_phones {
+    .footer__phones {
         flex-direction: row;
     }
 }

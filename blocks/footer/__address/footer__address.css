@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 779px) {
-    .footer_address {
+    .footer__address {
         font-size: 12px;
     }
 }
