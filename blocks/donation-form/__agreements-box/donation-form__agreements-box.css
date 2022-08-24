@@ -1,0 +1,6 @@
+.donation-form__agreements-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 9px;
+}

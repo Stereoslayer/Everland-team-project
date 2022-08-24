@@ -18,8 +18,6 @@
 
 @media screen and (max-width: 767px) {
     .donation-form__slide-button {
-        width: 8.72px;
-        height: 14px;
-        background-image: url("../../../images/down-switch.svg");
+      transform: rotate(90deg);
     }
 }
