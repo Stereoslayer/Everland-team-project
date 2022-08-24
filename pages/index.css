@@ -2,7 +2,7 @@
 @import url(../vendor/fonts.css);
 @import url(../blocks/body/body.css);
 
-@import url(../blocks/body/body_lock.css);
+@import url(../blocks/body/_lock/body_lock.css);
 
 
 
