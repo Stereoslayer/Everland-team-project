@@ -1,15 +1,23 @@
 .special-projects__button {
+  height: 48px;
   width: 194px;
   box-sizing: border-box;
   margin: 0 0 auto;
-  padding: 12px 35px;
   text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 1279px) {
+  .special-projects__button {
+    height: 45px;
+    width: 200px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .special-projects__button {
     width: 100%;
-    text-align: center;
     margin-top: 9px;
   }
 }

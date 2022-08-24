@@ -1,6 +1,6 @@
 .social__slider-switcher {
   position: absolute;
-  bottom: 2px;
+  bottom: 0px;
 }
 
 @media screen and (max-width: 767px) {
