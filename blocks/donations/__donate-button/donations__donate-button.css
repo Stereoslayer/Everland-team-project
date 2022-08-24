@@ -1,34 +1,38 @@
 .donations__donate-button {
-    width: 159px;
-    height: 48px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    color: #0C4BA0;
-    padding: 0;
+  background: #FFFFFF;
+  border-radius: 10px;
+  color: #0C4BA0;
+  border: 1px solid #FFF;
+  padding: 11px 54px;
+  box-sizing: border-box;
+  max-width: 159px;
 }
 
 .donations__donate-button:hover {
-    box-sizing: border-box;
-    border: 1px solid #00275C;
-    border-radius: 10px;
-    color: #00275C;
+  box-sizing: border-box;
+  border: 1px solid #00275C;
+  border-radius: 10px;
+  color: #00275C;
 }
 
 .radio-button:checked + .donations__donate-button {
-    background: #00275C;
-    color: #FFFFFF;
+  background: #00275C;
+  box-sizing: border-box;
+  border: 1px solid #00275C;
+  color: #FFFFFF;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
-    .donations__donate-button {
-        width: 75px;
-        height: 44px;
-    }
+  .donations__donate-button {
+    padding: 11.5px 18.5px;
+    max-width: 75px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .donations__donate-button {
-        width: 122px;
-        border-radius: 8px;
-    }
+  .donations__donate-button {
+    padding: 12.5px 43.5px;
+    border-radius: 8px;
+    max-width: 122px;
+  }
 }

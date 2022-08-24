@@ -3,6 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
   line-height: 130%;
   color: #333333;
   flex-grow: 1;
@@ -14,6 +15,12 @@
   .special-projects__description {
     font-size: 16px;
     line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .special-projects__description {
+    max-width: 315px;
   }
 }
 

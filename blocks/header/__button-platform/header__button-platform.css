@@ -2,3 +2,13 @@
     color: #0C4BA0;
     background-color: #fff;
 }
+
+.header__button-platform:hover {
+    border: 1px solid #00275C;
+    color: #00275C;
+}
+
+.header__button-platform:active {
+    background-color: #00275C;
+    color: white;
+}

@@ -11,8 +11,8 @@
 
 @media screen and (max-width: 767px) {
   .social__images {
+    align-self: center;
     margin-bottom: -60px;
     width: 300px;
-    align-self: center;
   }
 }
