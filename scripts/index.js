@@ -191,14 +191,14 @@ document.querySelectorAll('.accordion__button').forEach(el => {
   });
 });
 
-const slidersButtonLeft = document.querySelectorAll(".slider__button_nav_left");
+const slidersButtonLeft = document.querySelectorAll(".slider__button_direction_left");
 slidersButtonLeft.forEach((leftButton) => {
   leftButton.addEventListener("click", () => {
     slider(leftButton, -1);
   });
 });
 
-const slidersButtonRight = document.querySelectorAll(".slider__button_nav_right");
+const slidersButtonRight = document.querySelectorAll(".slider__button_direction_right");
 slidersButtonRight.forEach((rightButton) => {
   rightButton.addEventListener("click", () => {
     slider(rightButton, 1);

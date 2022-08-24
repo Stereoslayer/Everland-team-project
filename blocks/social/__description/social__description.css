@@ -3,7 +3,8 @@
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 130%;
+  font-feature-settings: "pnum" on, "lnum" on;
   color: #333333;
   max-width: 543px;
   margin: 0;
@@ -12,6 +13,7 @@
 @media screen and (max-width: 1439px) {
   .social__description {
     font-size: 16px;
+    line-height: 120%;
     max-width: 401px;
   }
 }

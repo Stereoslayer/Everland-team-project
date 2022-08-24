@@ -4,6 +4,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 120%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
   color: #333333;
   display: none;
   padding: 0 2px;

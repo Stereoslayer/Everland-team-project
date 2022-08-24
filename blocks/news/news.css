@@ -1,11 +1,11 @@
 .news {
-  margin: 100px auto;
-  max-width: 100%;
   box-sizing: border-box;
-  padding: 0 40px;
-  position: relative;
   display: flex;
   flex-direction: column;
+  margin: 100px auto;
+  max-width: 100%;
+  padding: 0 40px;
+  position: relative;
 }
 
 @media screen and (max-width: 1279px) {
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 767px) {
   .news {
-    padding: 0 10px;
     margin: 32px auto;
+    padding: 0 10px;
   }
 }
