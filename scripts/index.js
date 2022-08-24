@@ -103,7 +103,6 @@ primaryMenuLink.forEach(function(item){
 });
 
 function onPrimaryMenuLinkClick(e) {
-  console.log(isTabletScreen);
   if(isTabletScreen) {body.classList.toggle("body_lock")};
   primaryMenu.classList.toggle("primary-menu_active");
   menuIconBurger.classList.toggle("header__icon-burger_active");
