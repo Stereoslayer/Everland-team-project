@@ -1,0 +1,31 @@
+.header__icon-burger {
+    z-index: 5;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header__icon-burger span,
+.header__icon-burger::before,
+.header__icon-burger::after {
+    position: relative;
+    height: 4px;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+    background: url(../../../images/line.svg) no-repeat center;
+}
+
+.header__icon-burger::before,
+.header__icon-burger::after {
+    content: "";
+}
+
+.header__icon-burger::before {
+    top: 0;
+}
+
+.header__icon-burger::after {
+    bottom: 0;
+}

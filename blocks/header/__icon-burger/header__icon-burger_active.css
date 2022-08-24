@@ -1,0 +1,13 @@
+.header__icon-burger_active span {
+    transform: scale(0) translate(0, -50px);
+}
+
+.header__icon-burger_active::before {
+    top: 10.5px;
+    transform: rotate(45deg);
+}
+
+.header__icon-burger_active::after {
+    bottom: 10.5px;
+    transform: rotate(-45deg);
+}

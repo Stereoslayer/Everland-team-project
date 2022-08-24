@@ -1,0 +1,21 @@
+.news__title {
+  font-family: "Raleway", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  color: #333333;
+  margin: 0 0 20px;
+}
+
+@media screen and (max-width: 1279px) {
+  .news__title {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__title {
+    font-size: 18px;
+  }
+}

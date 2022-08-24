@@ -1,0 +1,11 @@
+.digits__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .digits__card {
+    flex-direction: column-reverse;
+  }
+}

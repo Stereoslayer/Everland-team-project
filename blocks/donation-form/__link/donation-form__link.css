@@ -1,0 +1,9 @@
+.donation-form__link {
+    text-decoration: none;
+    color: #0C4BA0;
+}
+
+.donation-form__link:hover {
+    transition: opacity linear 1s;
+    opacity: 0.8;
+}

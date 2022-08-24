@@ -1,0 +1,16 @@
+.footer__about-everland {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20.78px;
+    max-width: 413px;
+}
+
+@media screen and (max-width: 1279px) {
+    .footer__about-everland {}
+}
+
+@media screen and (max-width: 779px) {
+    .footer__about-everland {
+        font-size: 12px;
+    }
+}

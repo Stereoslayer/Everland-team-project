@@ -1,0 +1,20 @@
+.for-whom__card {
+    min-height: 428px;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 1279px) {
+    .for-whom__card {
+        min-height: 298px;
+    }
+}
+
+@media screen and (max-width: 779px) {
+    .for-whom__card {
+        min-height: 234px;
+        padding: 24px;
+    }
+}

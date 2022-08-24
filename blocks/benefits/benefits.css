@@ -1,0 +1,9 @@
+.benefits {
+  width: calc(100% - 80px);
+}
+
+@media screen and (max-width: 767px) {
+  .benefits {
+    width: calc(100% - 20px);
+  }
+}
