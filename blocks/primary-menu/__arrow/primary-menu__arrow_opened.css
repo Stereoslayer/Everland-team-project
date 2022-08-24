@@ -1,6 +1,0 @@
-@media screen and (max-width: 749px) {
-
-    .primary-menu__arrow_opened {
-        transform: rotate(-180deg);
-    }
-}
