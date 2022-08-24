@@ -23,7 +23,8 @@
 
 @media screen and (max-width: 779px) {
     .for-whom__button-link {
-        padding: 12px 32px 12px 10px;
+        margin-top: 27px;
+        padding: 28px 32px 12px 10px;
         background-size: 12px 12px;
     }
 }

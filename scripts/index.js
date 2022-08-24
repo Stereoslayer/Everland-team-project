@@ -20,9 +20,9 @@ window.onresize = resizeWindow;
 
 function resizeWindow() {
 
-    if (mobiletScreen.matches || middleScreen.matches) {
+    if (mobiletScreen.matches) {
         footerIconBeline.setAttribute("src", "./images/footer/bilain-small.svg");
-    } else { footerIconBeline.setAttribute("src", "./images/footer/bilain.svg"); }
+    } else if (middleScreen.matches) { footerIconBeline.setAttribute("src", "./images/footer/bilain-tablet.svg"); } else { footerIconBeline.setAttribute("src", "./images/footer/bilain.svg"); }
 
 }
 

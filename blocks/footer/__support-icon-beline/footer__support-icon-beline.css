@@ -1,4 +1,5 @@
 .footer__support-icon-beline {
+    object-fit: cover;
     max-width: 100px;
 }
 

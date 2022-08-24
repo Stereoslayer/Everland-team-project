@@ -18,7 +18,9 @@
 }
 
 @media screen and (max-width: 779px) {
-    .footer_phone {
+    .footer__phone {
         font-size: 12px;
+        max-width: 112px;
+        min-width: 102px;
     }
 }

@@ -203,6 +203,7 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__about-everland/footer__about-everland.css);
 @import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__project/footer__project.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__text-everland/footer__text-everland.css);
@@ -222,5 +223,7 @@
 @import url(../blocks/footer/__logo-yandex/footer__logo-yandex.css);
 @import url(../blocks/footer/__support-icon-beline/footer__support-icon-beline.css);
 @import url(../blocks/footer/__support-icon-fond/footer__support-icon-fond.css);
-@import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/footer/__social-lisenses/footer__social-lisenses.css);
+@import url(../blocks/footer/__support/footer__support.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__support-link/footer__support-link.css);

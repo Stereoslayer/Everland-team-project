@@ -5,3 +5,17 @@
     column-gap: 50px;
     padding-top: 19px;
 }
+
+@media screen and (max-width: 1279px) {
+    .footer__support-icons {
+        column-gap: 25px;
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 779px) {
+    .footer__support-icons {
+        padding-left: 12px;
+        column-gap: 20.53px;
+    }
+}

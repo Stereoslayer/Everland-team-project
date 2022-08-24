@@ -1,9 +1,9 @@
-.footer__social-link {
+.footer__support-link {
     opacity: 1;
     cursor: pointer;
     transition: opacity step-end;
 }
 
-.footer__social-link:hover {
+.footer__support-link:hover {
     opacity: .5;
 }

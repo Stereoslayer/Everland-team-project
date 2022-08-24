@@ -3,6 +3,20 @@
     padding: 0;
     display: flex;
     flex-direction: row;
-    gap: 20.65px;
-    padding-top: 42px;
+    padding-top: 35px;
+    column-gap: 20.66px;
+}
+
+@media screen and (max-width: 1279px) {
+    .footer__author {
+        row-gap: 8px;
+        column-gap: 10.61px;
+    }
+}
+
+@media screen and (max-width: 779px) {
+    .footer__author {
+        flex-direction: column;
+        row-gap: 8px;
+    }
 }

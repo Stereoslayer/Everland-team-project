@@ -1,12 +1,11 @@
-.footer__social-icon {
-    background-size: contain;
-    border-radius: 10px;
-    max-width: 64px;
-    background: transparent;
-}
-
-@media screen and (max-width: 1279px) {
     .footer__social-icon {
-        max-width: 40px;
+        max-width: 64px;
+        object-fit: cover;
+        background-color: transparent;
     }
-}
+    
+    @media screen and (max-width: 1279px) {
+        .footer__social-icon {
+            max-width: 40px;
+        }
+    }

@@ -4,16 +4,19 @@
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, min-max(min-content, max-content));
-    gap: 50px 82px;
+    gap: 90px 82px;
 }
 
 @media screen and (max-width: 1279px) {
-    .footer__container {}
+    .footer__container {
+        gap: 58px 40px;
+    }
 }
 
 @media screen and (max-width: 779px) {
     .footer__container {
         grid-template-columns: repeat(1, auto);
         grid-template-rows: repeat(4, min-max(min-content, max-content));
+        gap: 0px 0px;
     }
 }

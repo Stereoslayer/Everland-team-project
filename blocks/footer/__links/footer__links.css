@@ -7,3 +7,15 @@
     max-width: 166px;
     list-style-type: none;
 }
+
+@media screen and (max-width: 1279px) {
+    .footer__links {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 779px) {
+    .footer__links {
+        gap: 8px;
+    }
+}
