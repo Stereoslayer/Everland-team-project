@@ -1,17 +1,16 @@
 .special-projects__button {
   box-sizing: border-box;
-  height: 48px;
   margin: 0 0 auto;
+  padding: 11px 37px;
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  width: 194px;
+  align-self: flex-start;
 }
 
 @media screen and (max-width: 1279px) {
   .special-projects__button {
-    height: 45px;
-    width: 200px;
+    padding: 12px 53px;
   }
 }
 

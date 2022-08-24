@@ -1,25 +1,23 @@
 .news__all-news-button {
   box-sizing: border-box;
-  height: 48px;
   margin: 0;
+  padding: 12px 35px;
   position: absolute;
   right: 40px;
   top: 16px;
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  width: 194px;
 }
 
 @media screen and (max-width: 1279px) {
   .news__all-news-button {
     align-self: center;
-    height: 44px;
     margin-top: 34px;
+    padding: 12px 53px;
     position: unset;
     right: unset;
     top: unset;
-    width: 200px;
   }
 }
 

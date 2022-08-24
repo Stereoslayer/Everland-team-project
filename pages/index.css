@@ -113,8 +113,8 @@
 @import url(../blocks/slider/__button/slider__button.css);
 @import url(../blocks/slider/__button/_color/slider__button_color_black.css);
 @import url(../blocks/slider/__button/_color/slider__button_color_blue.css);
-@import url(../blocks/slider/__button/_nav/slider__button_nav_left.css);
-@import url(../blocks/slider/__button/_nav/slider__button_nav_right.css);
+@import url(../blocks/slider/__button/_direction/slider__button_direction_left.css);
+@import url(../blocks/slider/__button/_direction/slider__button_direction_right.css);
 @import url(../blocks/slider/__switcher-text/slider__switcher-text.css);
 @import url(../blocks/slider/__switcher-text/_visible/slider__switcher-text_visible.css);
 @import url(../blocks/fade/fade.css);
