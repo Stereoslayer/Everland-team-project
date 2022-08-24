@@ -1,17 +1,20 @@
 .donations__donate-button_other-sum {
-    width: 211px;
+  padding: 11px 37px;
+  max-width: 211px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
-    .donations__donate-button_other-sum {
-        width: 135px;
-    }
+  .donations__donate-button_other-sum {
+    max-width: 137px;
+    padding: 11.5px 13.5px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .donations__donate-button_other-sum {
-        width: 260px;
-        margin: 0;
-        font-size: 14px;
-    }
+  .donations__donate-button_other-sum {
+    max-width: 260px;
+    margin: 0;
+    padding: 12.5px 81.5px;
+    font-size: 14px;
+  }
 }

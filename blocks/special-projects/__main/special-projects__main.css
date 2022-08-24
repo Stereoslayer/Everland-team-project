@@ -1,8 +1,8 @@
 .special-projects__main {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   flex-grow: 1;
+  gap: 20px;
 }
 
 @media screen and (max-width: 1439px) {

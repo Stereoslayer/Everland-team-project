@@ -4,6 +4,5 @@
 }
 
 .donation-form__link:hover {
-    transition: opacity linear 1s;
-    opacity: 0.8;
+  color: #00275C;
 }

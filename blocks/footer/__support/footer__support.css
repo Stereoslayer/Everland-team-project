@@ -1,1 +1,7 @@
 .footer__support {}
+
+@media screen and (max-width: 779px) {
+    .footer__support {
+        padding-top: 39px;
+    }
+}

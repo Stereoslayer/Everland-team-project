@@ -1,0 +1,13 @@
+.footer__project {}
+
+@media screen and (max-width: 1279px) {
+    .footer__project {
+        max-width: 161px;
+    }
+}
+
+@media screen and (max-width: 779px) {
+    .footer__project {
+        max-width: 140px
+    }
+}

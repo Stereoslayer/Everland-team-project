@@ -1,25 +1,25 @@
 .social__image_place_top {
   float: right;
-  right: 128px;
   bottom: 158px;
-  width: 392px;
+  right: 128px;
   height: 407px;
+  width: 392px;
 }
 
 @media screen and (max-width: 1439px) {
   .social__image_place_top {
-    right: calc((100vw * 74) / 768);
     bottom: calc((100vw * 40) / 768);
-    width: calc((100vw * 170) / 768);
+    right: calc((100vw * 74) / 768);
     height: calc((100vw * 175) / 768);
+    width: calc((100vw * 170) / 768);
   }
 }
 
 @media screen and (max-width: 767px) {
   .social__image_place_top {
-    right: 130px;
     bottom: 100px;
-    width: 170px;
+    right: 130px;
     height: 160px;
+    width: 170px;
   }
 }

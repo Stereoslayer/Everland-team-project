@@ -9,6 +9,6 @@
     .primary-menu__list-item_empty {
         grid-column: auto;
         grid-row: auto;
-        margin-bottom: 26px;
+        margin-bottom: 20px;
     }
 }

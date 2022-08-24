@@ -1,0 +1,11 @@
+.footer__social-lisenses {}
+
+@media screen and (max-width: 1279px) {
+    .footer__social-lisenses {}
+}
+
+@media screen and (max-width: 779px) {
+    .footer__social-lisenses {
+        padding-top: 24px;
+    }
+}

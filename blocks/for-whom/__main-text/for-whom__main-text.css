@@ -6,17 +6,22 @@
     line-height: 26px;
     font-weight: 400;
     color: #333333;
+    padding-bottom: 35px;
 }
 
 @media screen and (max-width: 1279px) {
     .for-whom__main-text {
         font-size: 16px;
+        line-height: 19px;
         padding-top: 10px;
+        padding-bottom: 20px;
     }
 }
 
 @media screen and (max-width: 779px) {
     .for-whom__main-text {
         font-size: 14px;
+        line-height: 17px;
+        padding-bottom: 0px;
     }
 }
