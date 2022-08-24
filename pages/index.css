@@ -59,6 +59,7 @@
 @import url(../blocks/for-whom/__icon/for-whom__icon.css);
 @import url(../blocks/for-whom/__main-text/for-whom__main-text.css);
 @import url(../blocks/for-whom/__title/for-whom__title.css);
+@import url(../blocks/for-whom/__container/for-whom-container.css);
 @import url(../blocks/directions/directions.css);
 @import url(../blocks/directions/__title/directions__title.css);
 @import url(../blocks/directions/__card-title/directions__card-title.css);
