@@ -11,22 +11,21 @@
 
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/header_active.css);
+@import url(../blocks/header/_active/header_active.css);
 @import url(../blocks/header/__button-platform/header__button-platform.css);
 @import url(../blocks/header/__button-support/header__button-support.css);
 @import url(../blocks/header/__buttons/header__buttons.css);
 @import url(../blocks/header/__icon-burger/header__icon-burger.css);
-@import url(../blocks/header/__icon-burger/header__icon-burger_active.css);
+@import url(../blocks/header/__icon-burger/_active/header__icon-burger_active.css);
 @import url(../blocks/header/__logo-img/header__logo-img.css);
 @import url(../blocks/header/__logo-link/header__logo-link.css);
-@import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu-title/header__menu-title.css);
 @import url(../blocks/header/__menu/header__menu.css);
 
 @import url(../blocks/primary-menu/primary-menu.css);
-@import url(../blocks/primary-menu/primary-menu_active.css);
+@import url(../blocks/primary-menu/_active/primary-menu_active.css);
 @import url(../blocks/primary-menu/__arrow/primary-menu__arrow.css);
-@import url(../blocks/primary-menu/__arrow/primary-menu__arrow_opened.css);
+@import url(../blocks/primary-menu/__arrow/_opened/primary-menu__arrow_opened.css);
 @import url(../blocks/primary-menu/__link/primary-menu__link.css);
 @import url(../blocks/primary-menu/__list-item/primary-menu__list-item.css);
 @import url(../blocks/primary-menu/__list-item_empty/primary-menu__list-item_empty.css);
@@ -38,6 +37,7 @@
 @import url(../blocks/secondary-menu/secondary-menu.css);
 @import url(../blocks/secondary-menu/__link/secondary-menu__link.css);
 @import url(../blocks/secondary-menu/__list/secondary-menu__list.css);
+
 
 
 @import url(../blocks/page/page.css);
@@ -95,7 +95,6 @@
 @import url(../blocks/digits/__numeric/digits__numeric.css);
 @import url(../blocks/digits/__subtitle/digits__subtitle.css);
 @import url(../blocks/special-projects/special-projects.css);
-@import url(../blocks/special-projects/__list/special-projects__list.css);
 @import url(../blocks/special-projects/__item/special-projects__item.css);
 @import url(../blocks/special-projects/__item/_color/special-projects__item_color_blue.css);
 @import url(../blocks/special-projects/__item/_color/special-projects__item_color_green.css);
@@ -113,8 +112,8 @@
 @import url(../blocks/slider/__button/slider__button.css);
 @import url(../blocks/slider/__button/_color/slider__button_color_black.css);
 @import url(../blocks/slider/__button/_color/slider__button_color_blue.css);
-@import url(../blocks/slider/__button/_direction/slider__button_direction_left.css);
-@import url(../blocks/slider/__button/_direction/slider__button_direction_right.css);
+@import url(../blocks/slider/__button/_nav/slider__button_nav_left.css);
+@import url(../blocks/slider/__button/_nav/slider__button_nav_right.css);
 @import url(../blocks/slider/__switcher-text/slider__switcher-text.css);
 @import url(../blocks/slider/__switcher-text/_visible/slider__switcher-text_visible.css);
 @import url(../blocks/fade/fade.css);
@@ -140,7 +139,6 @@
 @import url(../blocks/news/__subtitle/news__subtitle.css);
 @import url(../blocks/news/__title/news__title.css);
 @import url(../blocks/news/__description/news__description.css);
-@import url(../blocks/news/__date/news__date.css);
 @import url(../blocks/news/__image/news__image.css);
 
 @import url(../blocks/donation-form/donation-form.css);
@@ -160,11 +158,9 @@
 @import url(../blocks/donation-form/__pay-ways/donation-form__pay-ways.css);
 @import url(../blocks/donation-form/__slide-button/donation-form__slide-button.css);
 @import url(../blocks/donation-form/__pay-ways-button/donation-form__pay-ways-button.css);
-@import url(../blocks/donation-form/__pay-type-button/_info/donation-form__pay-type-button_info.css);
 @import url(../blocks/donation-form/__user-data/donation-form__user-data.css);
 @import url(../blocks/donation-form/__user-data-input/donation-form__user-data-input.css);
 @import url(../blocks/donation-form/__agreements/donation-form__agreements.css);
-@import url(../blocks/donation-form/__agreements-box/donation-form__agreements-box.css);
 @import url(../blocks/donation-form/__agreements-title/donation-form__agreements-title.css);
 @import url(../blocks/donation-form/__submit-button/donation-form__submit-button.css);
 @import url(../blocks/donation-form/__link/donation-form__link.css);

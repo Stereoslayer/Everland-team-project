@@ -11,3 +11,18 @@
     bottom: 10.5px;
     transform: rotate(-45deg);
 }
+
+@media screen and (max-width: 749px) {
+
+    
+    .header__icon-burger_active::before {
+        top: 8px;
+        transform: rotate(45deg);
+    }
+    
+    .header__icon-burger_active::after {
+        bottom: 8px;
+        transform: rotate(-45deg);
+    }
+  
+}
