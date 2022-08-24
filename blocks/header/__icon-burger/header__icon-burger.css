@@ -29,3 +29,9 @@
 .header__icon-burger::after {
     bottom: 0;
 }
+
+@media screen and (max-width: 749px) {
+    .header__icon-burger {
+        height: 20px;
+    }
+}

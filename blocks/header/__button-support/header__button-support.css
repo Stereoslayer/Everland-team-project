@@ -1,4 +1,13 @@
 .header__button-support {
     color: #fff;
     background-color: #0C4BA0;
+    border: none;
+}
+
+.header__button-support:hover {
+    background-color: #4183DC;
+}
+
+.header__button-support:active {
+    background-color: #00275C;
 }
