@@ -5,19 +5,24 @@
   font-size: 20px;
   line-height: 130%;
   color: #333333;
-  margin: 0 0 30px;
+  margin: 0 0 60px;
   flex-grow: 1;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  letter-spacing: -0.001em;
 }
 
 @media screen and (max-width: 1279px) {
   .news__description {
     font-size: 16px;
     line-height: 120%;
+    margin: 0 0 16px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .news__description {
     font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 20px;
   }
 }
