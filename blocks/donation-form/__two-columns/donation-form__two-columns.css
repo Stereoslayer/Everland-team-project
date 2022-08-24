@@ -5,19 +5,21 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
-    .donation-form__two-columns {
-        grid-template-columns: 1fr;
-        grid-template-rows: min-content min-content;
-        justify-items: center;
-        gap: 50px;
-    }
+  .donation-form__two-columns {
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .donation-form__two-columns {
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content;
+    justify-items: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .donation-form__two-columns {
-        grid-template-columns: 1fr;
-        grid-template-rows: min-content min-content;
-        justify-items: center;
-        gap: 32px;
-    }
+  .donation-form__two-columns {
+    gap: 32px;
+  }
 }

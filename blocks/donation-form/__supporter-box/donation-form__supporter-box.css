@@ -1,20 +1,24 @@
 .donation-form__supporter-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-height: 840px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 840px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
-    .donation-form__supporter-box {
-        max-height: 553px;
-        overflow: hidden;
-    }
+  .donation-form__supporter-box {
+    max-height: 553px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .donation-form__supporter-box {
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .donation-form__supporter-box {
-        max-height: 367px;
-        overflow: hidden;
-    }
+  .donation-form__supporter-box {
+    max-height: 367px;
+  }
 }

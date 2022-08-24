@@ -1,30 +1,35 @@
 .donation-form__user-data-input {
-    border: 1px solid #DADADA;
-    border-radius: 10px;
-    width: 455px;
-    height: 48px;
-    font-family: 'Raleway', 'Arial', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 130%;
-    padding: 0;
-    margin: 0;
+  border: 1px solid #DADADA;
+  border-radius: 10px;
+  width: 455px;
+  height: 48px;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  padding: 0 0 0 20px;
+  margin: 0;
 }
 
 .donation-form__user-data-input:checked {
-    border: 1px solid #0C4BA0;
+  border: 1px solid #0C4BA0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
-    .donation-form__user-data-input {
-        height: 44px;
-    }
+  .donation-form__user-data-input {
+    height: 44px;
+    font-size: 14px;
+    line-height: 120%;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .donation-form__user-data-input {
-        width: 260px;
-        height: 44px;
-    }
+  .donation-form__user-data-input {
+    width: 260px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 120%;
+  }
 }

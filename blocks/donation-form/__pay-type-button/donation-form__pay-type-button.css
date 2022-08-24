@@ -1,28 +1,28 @@
 .donation-form__pay-type-button {
-    width: 316px;
-    height: 48px;
-    border: 1px solid #DADADA;
-    border-radius: 10px;
+  padding: 11px 122.5px;
+  max-width: 315px;
+  border: 1px solid #DADADA;
+  border-radius: 10px;
 }
 
 .donation-form__pay-type-button:hover {
-    border: 1px solid #00275C;
+  border: 1px solid #00275C;
 }
 
 .radio-button:checked + .donation-form__pay-type-button {
-    border: 1px solid #0C4BA0;
+  border: 1px solid #0C4BA0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
-    .donation-form__pay-type-button {
-        width: 306px;
-        height: 44px;
-    }
+  .donation-form__pay-type-button {
+    padding: 11.5px 119.5px;
+    max-width: 306px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .donation-form__pay-type-button {
-        width: 122px;
-        height: 44px;
-    }
+  .donation-form__pay-type-button {
+    padding: 12.5px 36px;
+    max-width: 122px;
+  }
 }
