@@ -9,7 +9,10 @@
 @media screen and (max-width: 1279px) {
     .for-whom__cards {
         grid-template-columns: repeat(1, 1fr);
-        padding: 0;
+        padding-top: 32px;
+        padding-bottom: 64px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 

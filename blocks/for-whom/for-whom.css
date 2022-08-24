@@ -2,12 +2,6 @@
     background-color: #F5F5F5;
 }
 
-@media screen and (max-width: 1279px) {
-    .for-whom {
-        padding: 32px 160px 64px 160px
-    }
-}
-
 @media screen and (max-width: 779px) {
     .for-whom {
         padding: 24px 10px 64px 10px;
