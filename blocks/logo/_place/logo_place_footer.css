@@ -1,9 +1,0 @@
-.logo_place_footer {
-    max-width: 262.69px;
-}
-
-@media screen and (max-width: 1279px) {
-    .logo_place_footer {
-        max-width: 137.05px;
-    }
-}

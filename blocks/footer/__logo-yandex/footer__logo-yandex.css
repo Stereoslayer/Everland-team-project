@@ -1,9 +1,0 @@
-.footer__logo-yandex {
-    max-width: 161.34px;
-}
-
-@media screen and (max-width: 1279px) {
-    .footer__logo-yandex {
-        max-width: 115.37px;
-    }
-}
